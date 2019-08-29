@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Phone phone = new Phone("Harsh","445556666","Mobile");
         Log.i("TAG",phone.getContactName());
+        Log.i("TAG",phone.getContactType());
     }
 }
